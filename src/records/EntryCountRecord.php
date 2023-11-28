@@ -6,6 +6,7 @@
 namespace conversionia\entrycount\records;
 
 use craft\db\ActiveRecord;
+use craft\records\Element;
 
 /**
  * EntryCountRecord

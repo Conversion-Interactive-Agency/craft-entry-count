@@ -27,4 +27,12 @@ class EntryCountController extends Controller
 
         return $this->redirect('entry-count');
     }
+
+    public function actionExportAll()
+    {
+        $this->response->format = "csv";
+        $export = EntryCount::$plugin->entryCount->exportAll();
+
+        return  $export;
+    }
 }
