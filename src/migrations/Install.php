@@ -1,9 +1,9 @@
 <?php
 /**
- * @copyright Copyright (c) PutYourLightsOn
+ * @copyright Copyright (c) PutYourLightsOn : forked version by Conversionia
  */
 
-namespace putyourlightson\entrycount\migrations;
+namespace conversionia\entrycount\migrations;
 
 use Craft;
 use craft\db\Migration;

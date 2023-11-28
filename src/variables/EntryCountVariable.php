@@ -1,13 +1,13 @@
 <?php
 /**
- * @copyright Copyright (c) PutYourLightsOn
+ * @copyright Copyright (c) PutYourLightsOn : forked version by Conversionia
  */
 
-namespace putyourlightson\entrycount\variables;
+namespace conversionia\entrycount\variables;
 
 use craft\elements\db\EntryQuery;
-use putyourlightson\entrycount\EntryCount;
-use putyourlightson\entrycount\models\EntryCountModel;
+use conversionia\entrycount\EntryCount;
+use conversionia\entrycount\models\EntryCountModel;
 
 /**
  * Entry Count Variable

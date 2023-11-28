@@ -1,9 +1,9 @@
 <?php
 /**
- * @copyright Copyright (c) PutYourLightsOn
+ * @copyright Copyright (c) PutYourLightsOn : forked version by Conversionia
  */
 
-namespace putyourlightson\entrycount\records;
+namespace conversionia\entrycount\records;
 
 use craft\db\ActiveRecord;
 

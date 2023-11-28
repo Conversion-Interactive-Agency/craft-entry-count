@@ -8,7 +8,7 @@ It allows you to count and display the number of times that an entry has been vi
 
 ## Documentation
 
-Learn more and read the documentation at [putyourlightson.com/plugins/entry-count »](https://putyourlightson.com/plugins/entry-count)
+Learn more and read the documentation at [conversionia.com/plugins/entry-count »](https://conversionia.com/plugins/entry-count)
 
 ## License
 
@@ -22,8 +22,8 @@ Craft CMS 3.0.0 or later.
 
 To install the plugin, search for "Entry Count" in the Craft Plugin Store, or install manually using composer.
 
-    composer require putyourlightson/craft-entry-count
+    composer require conversionia/craft-entry-count
 
 *Plugin icon by [Made by Made from the Noun Project](https://thenounproject.com/made.somewhere/collection/counting/?i=864431)*
 
-<small>Created by [PutYourLightsOn](https://putyourlightson.com/).</small>
+<small>Created by [PutYourLightsOn : forked version by Conversionia](https://conversionia.com/).</small>

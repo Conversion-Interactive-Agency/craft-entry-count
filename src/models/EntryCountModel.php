@@ -1,9 +1,9 @@
 <?php
 /**
- * @copyright Copyright (c) PutYourLightsOn
+ * @copyright Copyright (c) PutYourLightsOn : forked version by Conversionia
  */
 
-namespace putyourlightson\entrycount\models;
+namespace conversionia\entrycount\models;
 
 use craft\base\Model;
 

@@ -1,16 +1,16 @@
 <?php
 /**
- * @copyright Copyright (c) PutYourLightsOn
+ * @copyright Copyright (c) PutYourLightsOn : forked version by Conversionia
  */
 
-namespace putyourlightson\entrycount;
+namespace conversionia\entrycount;
 
 use Craft;
 use craft\base\Plugin;
 use craft\web\twig\variables\CraftVariable;
-use putyourlightson\entrycount\models\SettingsModel;
-use putyourlightson\entrycount\services\EntryCountService;
-use putyourlightson\entrycount\variables\EntryCountVariable;
+use conversionia\entrycount\models\SettingsModel;
+use conversionia\entrycount\services\EntryCountService;
+use conversionia\entrycount\variables\EntryCountVariable;
 use yii\base\Event;
 
 /**

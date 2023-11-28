@@ -4,7 +4,6 @@
 
 {% set entries = craft.entryCount.entries.all() %}
 
-
 {% block content %}
 
     {% if entries|length %}
@@ -55,4 +54,9 @@
         {{ "No entries counted"|t('entry-count') }}
     {% endif %}
 
+{% endblock %}
+
+{% block footer %}
+<a href="{{ actionUrl('entry-count/entry-count/exportAll') }}" class="btn go">Export</a>
+<a href="{{ actionUrl('entry-count/entry-count/resetAll') }}" class="btn icon delete">Reset All</a>
 {% endblock %}

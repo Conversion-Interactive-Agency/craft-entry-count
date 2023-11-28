@@ -1,17 +1,18 @@
 <?php
 /**
- * @copyright Copyright (c) PutYourLightsOn
+ * @copyright Copyright (c) PutYourLightsOn : forked version by Conversionia
  */
 
-namespace putyourlightson\entrycount\services;
+namespace conversionia\entrycount\services;
 
 use Craft;
 use craft\base\Component;
 use craft\elements\db\EntryQuery;
 use craft\elements\Entry;
-use putyourlightson\entrycount\EntryCount;
-use putyourlightson\entrycount\models\EntryCountModel;
-use putyourlightson\entrycount\records\EntryCountRecord;
+use conversionia\entrycount\EntryCount;
+use conversionia\entrycount\models\EntryCountModel;
+use conversionia\entrycount\records\EntryCountRecord;
+use conversionia\entrycount\exporter\EntryCountExport;
 use yii\base\Event;
 
 /**
@@ -145,6 +146,15 @@ class EntryCountService extends Component
         }
     }
 
+    public function exportAll()
+    {
+        $allCountRecords = EntryCountRecord::find()
+            ->orderBy('count desc');
+
+        $export = new EntryCountExport();
+
+        return $export->export($allCountRecords);
+    }
     // Helper methods
     // =========================================================================
 

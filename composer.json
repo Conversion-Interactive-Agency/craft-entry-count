@@ -1,32 +1,32 @@
 {
-    "name": "putyourlightson/craft-entry-count",
-    "description": "Counts and displays the number of times that an entry has been viewed.",
+    "name": "conversionia/craft-entry-count",
+    "description": "Forked project of conversionia/entrycount - Counts and displays the number of times that an entry has been viewed.",
     "version": "2.0.3",
     "type": "craft-plugin",
-    "homepage": "https://www.putyourlightson.net/craft-entry-count",
+    "homepage": "https://www.conversionia/craft-entry-count",
     "license": "MIT",
     "require": {
         "craftcms/cms": "^3.0.0"
     },
     "autoload": {
         "psr-4": {
-          "putyourlightson\\entrycount\\": "src/"
+          "conversionia\\entrycount\\": "src/"
         }
     },
     "support": {
-        "docs": "https://putyourlightson.com/plugins/entry-count",
-        "source": "https://github.com/putyourlightson/craft-entry-count",
-        "issues": "https://github.com/putyourlightson/craft-entry-count/issues"
+        "docs": "https://conversionia.com/plugins/entry-count",
+        "source": "https://github.com/conversionia/craft-entry-count",
+        "issues": "https://github.com/conversionia/craft-entry-count/issues"
     },
     "extra": {
         "name": "Entry Count",
         "handle": "entry-count",
-        "developer": "PutYourLightsOn",
-        "developerUrl": "https://www.putyourlightson.net/",
+        "developer": "PutYourLightsOn : forked version by Conversionia",
+        "developerUrl": "https://www.conversionia/",
         "schemaVersion": "2.0.0",
         "hasCpSettings": true,
         "hasCpSection": true,
-        "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-entry-count/v2/CHANGELOG.md",
-        "class": "putyourlightson\\entrycount\\EntryCount"
+        "changelogUrl": "https://raw.githubusercontent.com/conversionia/craft-entry-count/v2/CHANGELOG.md",
+        "class": "conversionia\\entrycount\\EntryCount"
     }
 }

@@ -1,13 +1,13 @@
 <?php
 /**
- * @copyright Copyright (c) PutYourLightsOn
+ * @copyright Copyright (c) PutYourLightsOn : forked version by Conversionia
  */
 
-namespace putyourlightson\entrycount\controllers;
+namespace conversionia\entrycount\controllers;
 
 use Craft;
 use craft\web\Controller;
-use putyourlightson\entrycount\EntryCount;
+use conversionia\entrycount\EntryCount;
 
 /**
  * EntryCountController
