@@ -146,14 +146,22 @@ class EntryCountService extends Component
         }
     }
 
-    public function exportAll()
+    public function exportAll(): array
     {
         $allCountRecords = EntryCountRecord::find()
             ->orderBy('count desc');
 
         $export = new EntryCountExport();
-
         return $export->export($allCountRecords);
+    }
+
+    public function resetAll()
+    {
+        $allCountRecords = EntryCountRecord::find();
+
+        foreach ($allCountRecords->each() as $entryCountRecord) {
+            $entryCountRecord->delete();
+        }
     }
     // Helper methods
     // =========================================================================

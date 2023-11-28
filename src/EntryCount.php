@@ -11,7 +11,6 @@ use craft\web\twig\variables\CraftVariable;
 use conversionia\entrycount\models\SettingsModel;
 use conversionia\entrycount\services\EntryCountService;
 use conversionia\entrycount\variables\EntryCountVariable;
-use conversionia\entrycount\exporter\EntryCountExport;
 use yii\base\Event;
 
 /**
